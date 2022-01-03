@@ -13,5 +13,6 @@ class GameModel {
 
   void gameNotationChange(int gamePosition, String player) {
     _gameNotation[gamePosition] = player;
+    print("deneme");
   }
 }
