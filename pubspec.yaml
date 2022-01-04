@@ -31,7 +31,8 @@ dependencies:
     sdk: flutter
 
   #services
-  dio: ^4.0.4
+  
+  http: ^0.13.4
   
   #state management
   mobx: ^2.0.6+1
