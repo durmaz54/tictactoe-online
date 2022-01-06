@@ -13,7 +13,7 @@ class LoginView extends StatelessWidget {
         title: Text('TicTacToe'),
       ),
       body: Observer(builder: (_) {
-        return _viewModel.isLogin ? GameView() : newMethodLogin();
+        return _viewModel.isLogin ? GameView(500) : newMethodLogin();
       }),
     );
   }
